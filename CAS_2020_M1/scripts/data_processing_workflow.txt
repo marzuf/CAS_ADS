@@ -1,0 +1,19 @@
+# workflow
+
+# first rename the bed files so that they contain accession and protein name
+
+# -> for each chromo
+# take the file from GM12878 with TAD coordinates
+# extract TAD coordinates as BED format
+# for each of peak file available -> sum over the TAD coordinates
+
+wc -l narrow_peak_dld.txt 
+1903 narrow_peak_dld.txt
+
+wc -l broad_peak_dld.txt 
+116 broad_peak_dld.txt
+
+ls NARROWPEAKS/*bed.gz | wc -l
+1903
+ls BROADPEAKS/*bed.gz | wc -l
+116
