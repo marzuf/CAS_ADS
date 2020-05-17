@@ -5,8 +5,8 @@
 # first rename the bed files so that they contain accession and protein name
 
 # -> for each chromo
-# take the file from GM12878 with TAD coordinates
-# extract TAD coordinates as BED format
+# take the file from GM12878 with bin coordinates
+# extract bin coordinates as BED format
 # for each of peak file available -> sum over the TAD coordinates
 
 

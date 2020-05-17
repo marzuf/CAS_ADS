@@ -114,7 +114,7 @@ for chromo in "${all_chromo[@]}"; do
 # 
 # 
 # 
-# 			cmd="cut -f4 $out_histValueFile_tmp | sed 's/^\.$/0/g' > $out_histValueFile"
+# 			cmd="cut -f4 $out_histValueFile_tmp | sed 's/^\.$/0/g' > $out_histValueFile"  # a dot is added where there is no overlap -> replace with 0
 # 			runCMD "$cmd"
 # 			checkFile out_histValueFile $out_histValueFile
 # 
